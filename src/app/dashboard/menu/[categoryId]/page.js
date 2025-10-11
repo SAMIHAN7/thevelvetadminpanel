@@ -377,6 +377,7 @@ export default function SubmenuManagement()
                   <option value="Veg">Veg</option>
                   <option value="Non-Veg">Non-Veg</option>
                   <option value="Egg">Egg</option>
+                   <option value="None">None</option>
                 </select>
                 <input value={formData.price?.standard || ''} onChange={e => setFormData({ ...formData, price: { ...formData.price, standard: e.target.value } })} placeholder="Standard Price" type="number" className="w-full px-3 py-2 bg-gray-700 border border-gray-600 rounded" />
                 <div className="flex items-center space-x-2">
